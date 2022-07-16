@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/blur302"
+
+    tools:context="com.example.level1.question_activity" >
+
+    android:layout_gravity="center"
+
+    android:gravity="center" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="106dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <EditText
+
+            android:id="@+id/NameText"
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#756B6B"
+            android:textColorLink="@color/white" />
+
+        <EditText
+            android:id="@+id/ageText"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Age"
+            android:inputType="phone"
+            android:text=""
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#756B6B"
+            android:textColorLink="@color/white" />
+
+        <EditText
+            android:id="@+id/mailText"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress|textEmailSubject"
+            android:text=""
+            android:textColorLink="#756B6B" />
+
+        <EditText
+            android:id="@+id/PasswordText"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#756B6B"
+            android:textColorLink="@color/white" />
+
+        <EditText
+            android:id="@+id/confirmPasswordtext"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#756B6B"
+            android:textColorLink="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Rbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/std_blue_btn"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        app:iconTint="#F44336" />
+
+</RelativeLayout>

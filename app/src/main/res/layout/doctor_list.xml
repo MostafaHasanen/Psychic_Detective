@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <RelativeLayout
+        android:id="@+id/Listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/doctorDegree"
+            android:layout_width="251dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="142dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/DoctorName"
+            android:layout_width="251dp"
+            android:layout_height="47dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginRight="69dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="246dp"
+            android:layout_marginRight="246dp"
+            android:layout_marginBottom="10dp"
+            android:text="  Name : "
+            android:textColor="@color/BLLUe"
+            android:textSize="15dp"
+
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="195dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginEnd="196dp"
+            android:layout_marginRight="196dp"
+            android:layout_marginBottom="10dp"
+            android:text="  Doctor Degree : "
+            android:textColor="@color/BLLUe"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"></TextView>
+
+        android:text=""
+        android:textSize="50dp"
+        android:textColor="#566A7E"
+        android:textStyle="bold"
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="166dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="225dp"
+            android:layout_marginRight="225dp"
+            android:layout_marginBottom="10dp"
+            android:text="  Doctor Email : "
+
+
+            android:textColor="@color/BLLUe"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="197dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="227dp"
+            android:layout_marginEnd="195dp"
+            android:layout_marginRight="195dp"
+            android:layout_marginBottom="10dp"
+            android:text="  Phone Number : "
+
+
+            android:textColor="@color/BLLUe"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/DoctorPhoneNo"
+            android:layout_width="251dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="142dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/DoctorEmail"
+
+            android:layout_width="251dp"
+            android:layout_height="47dp"
+            android:layout_alignParentLeft="false"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="173dp"
+            android:layout_marginEnd="-26dp"
+            android:layout_marginRight="-26dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
