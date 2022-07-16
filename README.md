@@ -8,3 +8,5 @@ VED code: the voice emotion detection model code creation with datasets used
 FED code: the facial emotion detection model code creation with datasets used
 
 Flask API: the flask code with the h5 saved model used for VED model
+
+Android Application working with all models combined in Master branch
